@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className='bg-dark text-light py-3'>
-      <p className='text-center'>
+    <footer className="custom-footer py-3">
+      <p className="text-center"><strong>
         Copyright &copy; Shreyansh Kumar
-      </p>
+      </strong></p>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
