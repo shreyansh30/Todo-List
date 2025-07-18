@@ -6,7 +6,7 @@ import AddTodo from './MyComponents/AddTodo.js';
 import About from './MyComponents/About.js';
 import React, { useState, useEffect } from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
